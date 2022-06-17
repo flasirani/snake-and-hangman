@@ -27,14 +27,15 @@ int main()
             break;
         highscore2.push_back(x);
         }
-    for(int i=0;i<sizeof highscore2;i++){
-        for(int j=0;j<sizeof highscore2-1-i;j++){
+  int n=sizeof highscore2;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n-1-i;j++){
             int pom=highscore2[j];
             highscore2[j]=highscore2[j+1];
             highscore2[j+1]=pom;
         }
     }
-    for(int i=0;i<15;i++)
+    for(int i=0;i<n;i++)
         cout<<highscore2[i]<<endl;
     fin.close();
     return 0;
