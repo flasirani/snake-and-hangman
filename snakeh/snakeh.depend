@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1655846707 source:d:\Èkola\programiranje je kul\snakeh\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+	<vector>
+	<fstream>
+	<string>
+	<time.h>
+
