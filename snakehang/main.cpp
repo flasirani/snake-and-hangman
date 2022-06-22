@@ -180,7 +180,7 @@ int drugimeni(){
 cout<< "" <<endl;
 cout<< "  1. NAZAD U GLAVNI MENI" <<endl;
 cout<< "  2. NECU VISE DA IGRAM" <<endl;
-cout<< "  3. NADAM SE DA KREATORI IZGINU"<<endl;
+cout<< "  3. LOS SAM, DOSTA"<<endl;
     int p;
     cin>>p;
     return p;
