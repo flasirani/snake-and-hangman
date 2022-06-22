@@ -5,6 +5,7 @@
 #include <fstream>
 #include <string>
 #include <time.h>
+
 using namespace std;
 const int sirina=20;
 const int visina=20;
